@@ -1,3 +1,47 @@
-    bodey{
+*{padding: 0;
+margin:0}
+ 
+ 
+ 
+ body{
         font-family: 'Work Sans', sans-serif;
     }
+
+.banner{
+    background-image:url('../images/banner/banner1.png');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+.banner-container{
+   padding:166px  230px 166px 500px ;
+    text-align: end;
+    max-width: 800px;
+    margin:0px auto
+
+}
+
+.banner-title{color:#151414;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom:24px;
+   }
+
+   .banner-description{
+    color:#444343;
+    text-align: right;
+     font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: 400;
+   }
+
+   .primary-button{
+       padding:21px;
+       border-radius: 5px;
+       background-color: #F15B22;
+       border:none;
+       color:white
+   }
