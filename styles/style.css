@@ -95,6 +95,7 @@ margin:0}
        ;
        flex-direction: column;
        padding: 50px 0px;
+       margin:0 230px;
    }
 
    .planes-container{
@@ -124,9 +125,39 @@ margin:0}
     text-align: center;
     font-size: 25px;
     font-weight: 500;
+}
+
+
+/* positivemind-set */
+
+.positivemind-set{
+    background-image:linear-gradient(65deg,rgba(255, 68, 0, 0.903),rgba(255, 255, 255, 0.018)),url('../images/watch.png');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 800px;
+    max-height:200px;
+   margin:0 230px;
+   padding:69px 400px 69px  64px;
+   border-radius:5px
+}
 
 
 
+.positivemind-set-title{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    max-width:800px;
+    max-height: 300px;
+    margin-bottom: 24px;
+  
 
+}
 
-   }
+#call-btn{
+    background-color: white;
+    color:#F15B22;
+    padding: 20px;
+    font-weight: 700;
+}
