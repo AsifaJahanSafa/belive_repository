@@ -1,7 +1,9 @@
 *{padding: 0;
 margin:0}
  
- 
+ section{
+     margin-bottom:130px ;
+ }
  
  body{
         font-family: 'Work Sans', sans-serif;
@@ -44,4 +46,39 @@ margin:0}
        background-color: #F15B22;
        border:none;
        color:white
+   }
+/* failure section start */
+
+.failure-section img{
+    max-width: 800px;
+    max-height: 500px;
+   
+}
+   .failure-section{
+       display: flex;
+       align-items: center;
+       gap:80px;
+       margin:0 auto;
+       padding:0px 230px ;
+   }
+
+   .failure-title{
+       font-size: 25px;
+       font-weight: 700;
+       max-width: 200px;
+       margin-bottom: 24px;
+   }
+
+   .failure-description{
+       margin-top: 0;
+       margin-bottom: 18px;
+       font-size: 12px;
+       max-width: 400px;
+   }
+
+   .failure-list{
+       font-size: 12px;
+       line-height:20px;
+       padding: 0px 15px;
+
    }
